@@ -4,14 +4,17 @@
   "description": "Proyecto de automatizacion de pruebas desarrollado en Cypress para prueba tecnica QA automation:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "test:e2e": "cypress run --spec cypress/e2e/e2e-saucedemo/saucedemo-compra.cy.js",
+    "test:api": "cypress run --spec cypress/e2e/api-petstore/petstore-user.cy.js",
+    "test:all": "cypress run"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lisan274/automation-testing-cypress.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lisandro Suarez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Lisan274/automation-testing-cypress/issues"
