@@ -1,0 +1,23 @@
+{
+    "baseUrl": "https://petstore.swagger.io/v2",
+    "user": {
+        "id": 10010,
+        "username": "lisandro_test_user_10010",
+        "firstName": "Lisandro",
+        "lastName": "Suarez",
+        "email": "lisandro.test@example.com",
+        "password": "Password123",
+        "phone": "88008800",
+        "userStatus": 1
+    },
+    "updatedUser": {
+        "id": 10010,
+        "username": "lisandro_test_user_10010_actualizado",
+        "firstName": "Lisandro Actualizado",
+        "lastName": "Suarez Actualizado",
+        "email": "lisandro.updated@example.com",
+        "password": "Password123Actualizado",
+        "phone": "99009900",
+        "userStatus": 1
+    }
+}
