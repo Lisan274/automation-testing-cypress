@@ -1,0 +1,26 @@
+CONCLUSIONES Y HALLAZGOS EJERCICIO E2E - SAUCEDEMO
+
+Ejercicio Desarrollado:
+Se implemento una prueba funcional automatizada sobre la pagina https://www.saucedemo.com, utilizando cypress como herramienta de automatizacion.
+
+El flujo consta de:
+1. Autenticacion de usuario.
+2. Agregar 2 productos al carrito de compra.
+3. Visualizar el carrito de compra y validar que esten presentes los productos.
+4. Completar el formulario de compra con los datos de prueba.
+5. Finalizar la compra.
+6. Validar la pantalla de confirmacion de orden completada.
+
+Resultado:
+La prueba fue ejecutada correctamente y finalizo de manera exitosa. Se valido que el usuario puede iniciar sesion, seleccionar productos, 
+revisar el carrito, completar el checkout y finalizar la compra sin errores funcionales en el flujo principal.
+
+Hallazgo identificado:
+Durante la validacion final del flujo de compra, el enunciado del ejercicio solicita confirmar el mensaje "THANK YOU FOR YOUR ORDER";
+sin embargo , aplicacion muestra el mensaje real como "Thank you for your order!".
+Esta diferencia no representa un error funcional en el flujo de compra, ya que la orden se ejecuta correctamente.
+Se documenta como una diferencia entre el resultado esperado indicado en el enunciado y el texto real de la aplicacion.
+
+Conclusion:
+La prueba E2E fue completada exitosamente. La prueba automatizada cubre el flujo de compra solicitado y valida el comportamiento del sistema.
+Se identifico unicamente una diferencia textual entre el enunciado y el mensaje real de confirmacion mostrado por la aplicacion.
