@@ -24,3 +24,31 @@ Se documenta como una diferencia entre el resultado esperado indicado en el enun
 Conclusion:
 La prueba E2E fue completada exitosamente. La prueba automatizada cubre el flujo de compra solicitado y valida el comportamiento del sistema.
 Se identifico unicamente una diferencia textual entre el enunciado y el mensaje real de confirmacion mostrado por la aplicacion.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONCLUSIONES Y HALLAZGOS EJERCICIO API - PETSTORE USER
+
+Ejercicio Desarrollado:
+Se implemento una prueba automatizada sobre la API publica de PetStore, utilizando cypress como herramienta de automatizacion.
+
+El flujo consta de:
+1. Crear un usuario.
+2. Buscar el usuario creado.
+3. Actualizar el nombre y el correo del usuario.
+4. Buscar el usuario actualizado.
+5. Eliminar el usuario.
+6. Validar la eliminacion del usuario.
+
+Resultado:
+La prueba API fue ejecutada correctamente y finalizo de manera exitosa. 
+Se comprobo el ciclo completo de operaciones CRUD sobre el recurso User de Petstore.
+
+Hallazgo identificado:
+1. Despues de eliminar el usuario, la API respondio correctamente con el estado 404, este comportamiento se documenta como una validacion positiva.
+2. No se requiere autenticacion por parte de los endpoints utilizados en este ejercicio, no fue necesario manejar un token para consumirlos.
+
+Conclusion:
+El ejercicio sobre la API fue completado exitosamente. La automatizacion desarrollada valida el ciclo completo de administracion de un usuario.
+La respuesta 404 posterior a la eliminacion es un mensaje que demuestra la accion de eliminar el usuario.
