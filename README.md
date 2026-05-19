@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://githubusercontent.com" alt="Cypress Logo" width="100" />
+  <img src="https://shields.io" alt="Cypress" />
   <h1>🧪 QA Automation Technical Test</h1>
   <p>Proyecto de automatización de pruebas End-to-End (E2E) y API utilizando Cypress.</p>
 
